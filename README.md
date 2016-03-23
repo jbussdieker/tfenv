@@ -23,7 +23,7 @@ Or install it yourself as:
 Examine outputs for given configuration:
 
 ````
-tfenv -s ~/main-module/terraform.tfstate
+$ tfenv -s ~/main-module/terraform.tfstate
 ````
 
 Run terraform (or any other command) using configured outputs:
