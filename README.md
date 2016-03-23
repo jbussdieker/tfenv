@@ -29,7 +29,7 @@ $ tfenv -s ~/main-module/terraform.tfstate
 Run terraform (or any other command) using configured outputs:
 
 ````
-tfenv -s ~/main-module/terraform.tfstate terraform plan
+$ tfenv -s ~/main-module/terraform.tfstate terraform plan
 ````
 
 ## Development
