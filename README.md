@@ -20,6 +20,17 @@ Or install it yourself as:
 
 ## Usage
 
+Configuration options:
+
+````
+$ tfenv -h
+Usage: tfenv [options] [command]
+    -s, --state-file FILE            Include external state output from state file
+    -c, --consul URL/KEY             Include external state output from consul
+    -t, --tfvar FILE                 Write variables to tfvar file
+    -v, --[no-]verbose               Run verbosely
+````
+
 Examine outputs for given configuration:
 
 ````
