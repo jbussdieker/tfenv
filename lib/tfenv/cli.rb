@@ -79,10 +79,10 @@ module TFEnv
       {}.tap do |outputs|
         if options[:includes].empty? && options[:consuls].empty?
           if File.exists?("terraform.tfstate")
-            outputs = read_outputs("terraform.tfstate")
+            return read_outputs("terraform.tfstate")
           end
         else
-          outputs = collate_outputs(options)
+          collate_outputs(options)
         end
       end
     end
